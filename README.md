@@ -27,8 +27,8 @@ Investigates decentralized intervention policies in a continuous 2D spatial tran
 
 ---
 
-### Spatial Reinforcement Learning for Adaptive Antimicrobial Stewardship
-*Working Manuscript (Targeting Artificial Intelligence in Medicine, late 2026)*
+### Reinforcement Learning Reveals Emergent Antibiotic Stewardship Strategies in a Virtual Hospital Ward
+*Manuscript status: Submitted to Computers in Biology and Medicine*
 
 [Selected Experimental Results](fig/amr.jpg) · [Manuscript (Available upon Request)](mailto:b07801013@ntu.edu.tw)
 
@@ -41,7 +41,7 @@ Examines multi-scale decision-making in hospital wards by coupling within-host b
 ---
 
 ### Composition-Aware Portrait Optimization via Explicit Geometric Constraints
-*Master's Thesis Project · Proceedings of SPIE, 2026*
+*Master's Thesis Project · CVIT 2026 (Proceedings of SPIE)*
 
 [Paper (PDF)](https://www.dropbox.com/scl/fi/v2nxqbtlb8ep10lxtvdel/Aesthetics_v3.pdf?rlkey=tel0on2vn62vk2xk8s8tuw1p2&st=ommciisj&dl=0) · [DOI](https://doi.org/10.1117/12.3123776) · Code and app: planned GitHub release in late 2026.
 
@@ -56,7 +56,7 @@ Formulates portrait framing as an energy minimization problem over explicit geom
 ### Autonomous Framing Agent with Unity ML-Agents
 [Demo Video](https://www.dropbox.com/scl/fi/frpsduiwl9ujcwpv37743/Single-Agent-RL-for-aesthetic-photo.mp4?rlkey=5h1aa9rtd84yov655ab6h8vz2&st=u8zh0pym&dl=0) · [Course Report (PDF)](https://www.dropbox.com/scl/fi/h12v94zb9j9tppmn0fz51/Portrait-Aesthetics.pdf?rlkey=awxkkn9z14pr8eoyq34ov6utd&st=7kwt45rn&dl=0)
 
-Developed as an exploratory course project preceding the CAPO framework, this system trains an autonomous camera agent in Unity to discover aesthetically composed viewpoints using reinforcement learning. The agent observes relative 3D spatial coordinates across scenes (restaurant environment showcased out of three assets) and optimizes its trajectory using reward signals from an external aesthetic evaluator. An episode ends when the camera moves beyond a preset distance from the subject.
+Developed as an exploratory course project preceding the CAPO framework, this system trains an autonomous camera agent in Unity to discover aesthetically composed viewpoints using reinforcement learning. The agent observes relative 3D spatial coordinates across scenes (restaurant environment showcased out of three assets) and optimizes its trajectory using reward signals from an external aesthetic evaluator. An episode ends when the camera moves beyond a preset distance from the subject. I also fully implemented the Unity-based multi-agent reinforcement learning football-game tutorial from Hugging Face's [Deep RL Course](https://huggingface.co/learn/deep-rl-course/en/unit7/hands-on?utm_source=chatgpt.com), with the complete learning notes for the tutorial series available upon request from the author.
 
 - **Pipeline Architecture:** Environment logic exported from Unity; ML-Agents policy training executed in WSL with rendering enabled (`--no-graphics` disabled) alongside a parallel WSL instance hosting a pretrained aesthetic evaluator in FastAPI to stream inference rewards.
 - **Key methods:** Reinforcement Learning · Unity ML-Agents · FastAPI Backend · PPO · External Aesthetic Evaluation via FastAPI
@@ -94,14 +94,14 @@ Developed in collaboration with a precision coin manufacturer in New Taipei City
 
 - **Liu, Te-Chun**, Yang, Chuan-Kai, Lai, Yung-Chuan.  
   *Composition-Aware Portrait Optimization via Explicit Geometric Constraints.*  
-  *Proceedings of SPIE*, Vol. 14321, pp. 45–52, August 2026.  
+  *Proceedings of the Seventh International Conference on Computer Vision and Information Technology (CVIT 2026)*, Proc. SPIE, Vol. 14321, pp. 45–52, 2026. 
   [Paper (PDF)](https://www.dropbox.com/scl/fi/v2nxqbtlb8ep10lxtvdel/Aesthetics_v3.pdf?rlkey=tel0on2vn62vk2xk8s8tuw1p2&st=ommciisj&dl=0) · [DOI: 10.1117/12.3123776](https://doi.org/10.1117/12.3123776)
 
-### In Preparation / Working Manuscripts
+### Submitted / Under Review
 
 - Lee, Hsuan-Wei, **Liu, Te-Chun**.  
-  *Spatial Reinforcement Learning for Adaptive Antimicrobial Stewardship*  
-  Target venue: *Artificial Intelligence in Medicine* (Targeted submission: Late 2026).  
+  *Reinforcement Learning Reveals Emergent Antibiotic Stewardship Strategies in a Virtual Hospital Ward*  
+  Target venue: *Computers in Biology and Medicine*   
   [Selected Experimental Results](fig/amr.jpg) · [Draft (Available upon Request)](mailto:b07801013@ntu.edu.tw)
 
 ---
@@ -111,7 +111,7 @@ Developed in collaboration with a precision coin manufacturer in New Taipei City
 ### Multi-Class Latent Attribute Disentanglement in Generative Models (StylEx)
 [Extended Visualizations](https://www.dropbox.com/scl/fi/fj5vigfb94fyzzzhx6s5r/stylex_b.png?rlkey=saflplwsy39ig50rfpm64d74b&st=y70z2icj&dl=0) · Code available upon request
 
-I adapted a StylEx-based StyleSpace attribute-search pipeline from a binary-classification setup to a 20+ class photographer-identification task, re-engineering an open-source implementation ([Explaining-In-Style-Reproducibility-Study](https://github.com/NoahVl/Explaining-In-Style-Reproducibility-Study.git)) [1] using the portrait-authorship dataset [2]. This two-month project investigated whether photographer-specific visual patterns could be isolated through counterfactual latent manipulation. The resulting visualizations revealed substantial entanglement among photographic attributes in the limited, stylistically diverse dataset, demonstrating the limitations of unconstrained latent steering and motivating my subsequent work on explicit geometric constraints in CAPO. The project was ultimately halted due to GPU memory constraints.
+I implemented the multi-class application explicitly proposed in the original paper's Future Work section, adapted a StylEx-based StyleSpace attribute-search pipeline from a binary-classification setup to a 20+ class photographer-identification task, and re-engineered an open-source implementation ([Explaining-In-Style-Reproducibility-Study](https://github.com/NoahVl/Explaining-In-Style-Reproducibility-Study.git)) [1] using the portrait-authorship dataset [2]. This two-month project investigated whether photographer-specific visual patterns could be isolated through counterfactual latent manipulation. The resulting visualizations revealed substantial entanglement among photographic attributes in the limited, stylistically diverse dataset, demonstrating the limitations of unconstrained latent steering and motivating my subsequent work on explicit geometric constraints in CAPO. The project was ultimately halted due to GPU memory constraints.
 
 - **Key methods:** Explainable AI (XAI) · StyleGAN2 Inversion · Latent Disentanglement · StyleSpace Attribute Search · Counterfactual Generation
 
