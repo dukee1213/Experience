@@ -19,7 +19,7 @@ I study multi-agent reinforcement learning (MARL) and sequential decision-making
 ### Spatial Multi-Agent Reinforcement Learning for Epidemic Control with Heterogeneous Risk Preferences
 *Artificial Intelligence in Medicine (Accepted, October 2026)*
 
-[Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Manuscript (Available upon Request)](mailto:b07801013@ntu.edu.tw)
+[Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Manuscript following Major Revision](https://www.dropbox.com/scl/fi/1281j7kkcgwvz0j8z1u1w/ms_revised_clean.pdf?rlkey=9q64ssosd23woxnhe6c8nfyuk&st=mnz632gq&dl=0)
 
 Investigates decentralized intervention policies in a continuous 2D spatial transmission environment, using MADDPG with heterogeneous utility-transformed rewards and a representative-agent training paradigm that reduces training overhead by approximately 99%. The results show that decentralized policies respond differently to heterogeneous behavioral preferences and that system performance is sensitive to the representation of local information and agent incentives.
 
