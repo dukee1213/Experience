@@ -17,9 +17,9 @@ I study multi-agent reinforcement learning (MARL) and sequential decision-making
 ## Research Experience
 
 ### Spatial Multi-Agent Reinforcement Learning for Epidemic Control with Heterogeneous Risk Preferences
-*Artificial Intelligence in Medicine (Accepted, October 2026)*
+*Artificial Intelligence in Medicine (Published online, November 2026)*
 
-[Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Manuscript following Major Revision](https://www.dropbox.com/scl/fi/1281j7kkcgwvz0j8z1u1w/ms_revised_clean.pdf?rlkey=9q64ssosd23woxnhe6c8nfyuk&st=mnz632gq&dl=0)
+[Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Published Paper (DOI)](https://doi.org/10.1016/j.artmed.2026.103554)
 
 Investigates decentralized intervention policies in a continuous 2D spatial transmission environment, using MADDPG with heterogeneous utility-transformed rewards and a representative-agent training paradigm that reduces training overhead by approximately 99%. The results show that decentralized policies respond differently to heterogeneous behavioral preferences and that system performance is sensitive to the representation of local information and agent incentives.
 
@@ -27,10 +27,10 @@ Investigates decentralized intervention policies in a continuous 2D spatial tran
 
 ---
 
-### Reinforcement Learning Reveals Emergent Antibiotic Stewardship Strategies in a Virtual Hospital Ward
+### Reinforcement Learning for Antibiotic Stewardship in a Simulated Hospital Ward with Coupled Within-Host and Transmission Dynamics
 *Manuscript status: Submitted to Computers in Biology and Medicine*
 
-[Selected Experimental Results](fig/amr.jpg) · [Manuscript (Available upon Request)](mailto:b07801013@ntu.edu.tw)
+[Selected Experimental Results](fig/amr.jpg) · [Manuscript (PDF)](https://www.dropbox.com/scl/fi/4yuqdnfje21tq6ebonbtt/Reinforcement-Learning-for-Antibiotic-Stewardship-in-a-Simulated-Hospital-Ward-with-Coupled-Within-Host-and-Transmission-Dynamics.pdf?rlkey=te96tyf1gv953orn97nho05cg&st=fxfylate&dl=0) · arXiv preprint link: coming soon
 
 Examines multi-scale decision-making in hospital wards by coupling within-host bacterial competition differential equations with 2D spatial transmission to optimize dynamic drug prescribing under delayed resistance emergence. Deploys PPO with a multi-objective reward to derive treatment policies that balance immediate infection cure against long-term ecological resistance.
 
@@ -83,12 +83,11 @@ Developed in collaboration with a precision coin manufacturer in New Taipei City
 
 ## Publications
 
-### Accepted Publications
+### Published Journal Articles
 
 - **Liu, Te-Chun**, Lee, Hsuan-Wei.  
   *Spatial Multi-Agent Reinforcement Learning for Epidemic Control with Heterogeneous Risk Preferences.*  
-  *Artificial Intelligence in Medicine* (Accepted, October 2026; Ms. Ref. No. AIIM-D-26-00520R2).  
-  [Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Manuscript (Available upon Request)](mailto:b07801013@ntu.edu.tw)
+  *Artificial Intelligence in Medicine* (Published online, November 2026). [DOI: 10.1016/j.artmed.2026.103554](https://doi.org/10.1016/j.artmed.2026.103554). [Code Repository](https://github.com/dukee1213/SpatialRL.git)
 
 ### Published Proceedings
 
@@ -100,9 +99,9 @@ Developed in collaboration with a precision coin manufacturer in New Taipei City
 ### Submitted / Under Review
 
 - Lee, Hsuan-Wei, **Liu, Te-Chun**.  
-  *Reinforcement Learning Reveals Emergent Antibiotic Stewardship Strategies in a Virtual Hospital Ward*  
-  Target venue: *Computers in Biology and Medicine*   
-  [Selected Experimental Results](fig/amr.jpg) · [Draft (Available upon Request)](mailto:b07801013@ntu.edu.tw)
+  *Reinforcement Learning for Antibiotic Stewardship in a Simulated Hospital Ward with Coupled Within-Host and Transmission Dynamics*  
+  *Manuscript status: Submitted to Computers in Biology and Medicine*
+  [Selected Experimental Results](fig/amr.jpg) · [Manuscript (PDF)](https://www.dropbox.com/scl/fi/4yuqdnfje21tq6ebonbtt/Reinforcement-Learning-for-Antibiotic-Stewardship-in-a-Simulated-Hospital-Ward-with-Coupled-Within-Host-and-Transmission-Dynamics.pdf?rlkey=te96tyf1gv953orn97nho05cg&st=fxfylate&dl=0) · arXiv preprint link: coming soon
 
 ---
 
@@ -166,7 +165,7 @@ B.S. in Public Health & B.A. in Economics (Double Major), Minor in Business Anal
 ## Contact
 
 **Te-Chun Liu**  
-[Email](mailto:b07801013@ntu.edu.tw) · [Google Scholar (TC Liu)](https://scholar.google.com) · [LinkedIn](https://www.linkedin.com/in/duke-liu-747a482b9)
+[Email](mailto:b07801013@ntu.edu.tw) · [Google Scholar (Te-Chun, Liu)](https://scholar.google.com/citations?user=XSa07_0AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/duke-liu-747a482b9)
 
 ---
 
