@@ -19,7 +19,7 @@ I study multi-agent reinforcement learning (MARL) and sequential decision-making
 ### Spatial Multi-Agent Reinforcement Learning for Epidemic Control with Heterogeneous Risk Preferences
 *Artificial Intelligence in Medicine (Published online, November 2026)*
 
-[Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Published Paper (DOI)](https://doi.org/10.1016/j.artmed.2026.103554)
+[Code Repository](https://github.com/dukee1213/SpatialRL.git) · [Published Paper](https://doi.org/10.1016/j.artmed.2026.103554)
 
 Investigates decentralized intervention policies in a continuous 2D spatial transmission environment, using MADDPG with heterogeneous utility-transformed rewards and a representative-agent training paradigm that reduces training overhead by approximately 99%. The results show that decentralized policies respond differently to heterogeneous behavioral preferences and that system performance is sensitive to the representation of local information and agent incentives.
 
@@ -87,7 +87,7 @@ Developed in collaboration with a precision coin manufacturer in New Taipei City
 
 - **Liu, Te-Chun**, Lee, Hsuan-Wei.  
   *Spatial Multi-Agent Reinforcement Learning for Epidemic Control with Heterogeneous Risk Preferences.*  
-  *Artificial Intelligence in Medicine* (Published online, November 2026). [DOI: 10.1016/j.artmed.2026.103554](https://doi.org/10.1016/j.artmed.2026.103554). [Code Repository](https://github.com/dukee1213/SpatialRL.git)
+  *Artificial Intelligence in Medicine* (Published, November 2026). [DOI: 10.1016/j.artmed.2026.103554](https://doi.org/10.1016/j.artmed.2026.103554). [Code Repository](https://github.com/dukee1213/SpatialRL.git)
 
 ### Published Proceedings
 
@@ -151,7 +151,7 @@ M.S. in Information Management
 - Relevant coursework: Distributed ML Systems, ML & Big Data Analytics, AI & Deep Learning, LLMs & Information Security
 
 **National Taiwan University (NTU)**  
-B.S. in Public Health & B.A. in Economics (Double Major), Minor in Business Analytics
+B.S. in Public Health, Double Major in Economics, Minor in Business Analytics
 - Core focus: Biostatistics, Computational Epidemiology, Econometric Identification, Mathematical Optimization
 
 **Honors & Fellowships**
